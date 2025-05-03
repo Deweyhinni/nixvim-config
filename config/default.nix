@@ -1,4 +1,8 @@
 {
   # Import all your configuration modules here
-  imports = [ ./bufferline.nix ];
+  imports = [ 
+    ./options.nix
+    ./bufferline.nix
+    ./plugins/autopairs.nix
+  ];
 }
