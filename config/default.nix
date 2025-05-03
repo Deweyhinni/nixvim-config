@@ -3,7 +3,7 @@
   imports = [ 
     ./options.nix
     ./bufferline.nix
-    ./plugins/lualines.nix
+    ./plugins/lualine.nix
     ./plugins/autopairs.nix
     ./plugins/telescope.nix
     ./plugins/treesitter.nix
