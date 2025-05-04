@@ -86,18 +86,18 @@
               };
             };
           };
-          onAttach = ''
-            function(client, bufnr)
-              if vim.bo.filetype = 'rust' then
-                client.config.settings = client.config.settings or {}
-                client.config.settings.includeLanguages = client.config.settings.includeLanguages or {}
-                client.config.settings.includeLanguages.rust = 'html'
-                client.notify('workspace/didChangeConfiguration', { settings = client.config.settings })
-              end
-            end
-          '';
         };
       };
+      onAttach = ''
+        function(client, bufnr)
+          if vim.bo.filetype = 'rust' then
+            client.config.settings = client.config.settings or {}
+            client.config.settings.includeLanguages = client.config.settings.includeLanguages or {}
+            client.config.settings.includeLanguages.rust = 'html'
+            client.notify('workspace/didChangeConfiguration', { settings = client.config.settings })
+          end
+        end
+      '';
     };
   };
 }
