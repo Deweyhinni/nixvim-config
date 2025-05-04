@@ -89,7 +89,7 @@
         };
       };
       onAttach = ''
-          if vim.bo.filetype = 'rust' then
+          if vim.bo.filetype == 'rust' then
             client.config.settings = client.config.settings or {}
             client.config.settings.includeLanguages = client.config.settings.includeLanguages or {}
             client.config.settings.includeLanguages.rust = 'html'
