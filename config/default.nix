@@ -7,5 +7,7 @@
     ./plugins/autopairs.nix
     ./plugins/telescope.nix
     ./plugins/treesitter.nix
+    ./plugins/lsp.nix
+    ./plugins/sleuth.nix
   ];
 }
