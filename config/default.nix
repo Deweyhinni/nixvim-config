@@ -9,5 +9,6 @@
     ./plugins/treesitter.nix
     ./plugins/lsp.nix
     ./plugins/sleuth.nix
+    ./plugins/leap.nix
   ];
 }
