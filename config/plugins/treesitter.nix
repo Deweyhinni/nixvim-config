@@ -15,6 +15,8 @@
       "rust"
     ];
 
-    indent = true;
+    settings = {
+      indent.enable = true;
+    };
   };
 }
