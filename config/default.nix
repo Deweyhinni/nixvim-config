@@ -11,5 +11,7 @@
     ./plugins/sleuth.nix
     ./plugins/leap.nix
     ./plugins/cmp.nix
+    ./plugins/gitsigns.nix
+    ./plugins/conform.nix
   ];
 }

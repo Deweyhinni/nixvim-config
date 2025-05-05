@@ -1,14 +1,15 @@
 { self, ... }: {
   globalOpts = {
-    number = true;
-    relativenumber = true;
   };
 
   globals = {
     mapleader = " ";
+    maplocalleader = " ";
   };
 
   opts = {
+    number = true;
+    relativenumber = true;
     shiftwidth = 2;
   };
 
