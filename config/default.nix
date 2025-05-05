@@ -10,5 +10,6 @@
     ./plugins/lsp.nix
     ./plugins/sleuth.nix
     ./plugins/leap.nix
+    ./plugins/cmp.nix
   ];
 }
