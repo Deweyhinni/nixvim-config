@@ -13,5 +13,9 @@
     ./plugins/cmp.nix
     ./plugins/gitsigns.nix
     ./plugins/conform.nix
+    ./plugins/which-key.nix
+    ./plugins/yazi.nix
+    ./plugins/render-markdown.nix
+    ./plugins/mini.nix
   ];
 }
