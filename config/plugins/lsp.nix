@@ -20,6 +20,9 @@
         nixd = {
           enable = true;
         };
+        nushell = {
+          enable = true;
+        };
         hls = {
           enable = true;
         };
