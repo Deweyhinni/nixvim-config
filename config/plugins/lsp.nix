@@ -56,6 +56,9 @@
         wgsl_analyzer = {
           enable = true;
         };
+        texlab = {
+          enable = true;
+        };
         tailwindcss = {
           enable = true;
           filetypes = [

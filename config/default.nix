@@ -17,5 +17,6 @@
     ./plugins/yazi.nix
     ./plugins/render-markdown.nix
     ./plugins/mini.nix
+    ./plugins/vimtex.nix
   ];
 }
