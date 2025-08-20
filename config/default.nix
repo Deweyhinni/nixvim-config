@@ -18,5 +18,6 @@
     ./plugins/render-markdown.nix
     ./plugins/mini.nix
     ./plugins/vimtex.nix
+    ./plugins/java.nix
   ];
 }
