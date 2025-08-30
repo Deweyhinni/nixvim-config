@@ -12,6 +12,7 @@
           installCargo = false;
           installRustc = false;
           settings = {
+            cmd = [ "rust-analyzer" ];
             procMacro = {
               ignored = {
                 leptos_macro = [ "server" ];
