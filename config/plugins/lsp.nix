@@ -44,6 +44,12 @@
         };
         emmet_language_server = {
           enable = true;
+          filetypes = [
+            "html"
+            "htmldjango"
+            "templ"
+            "rust"
+          ];
         };
         eslint = {
           enable = true;
