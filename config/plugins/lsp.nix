@@ -66,6 +66,9 @@
         texlab = {
           enable = true;
         };
+        tinymist = {
+          enable = true;
+        };
         tailwindcss = {
           enable = true;
           filetypes = [
