@@ -19,5 +19,6 @@
     ./plugins/mini.nix
     ./plugins/vimtex.nix
     ./plugins/java.nix
+    ./plugins/extra.nix
   ];
 }

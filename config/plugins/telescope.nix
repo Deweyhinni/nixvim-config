@@ -27,6 +27,13 @@
           desc = "[S]earch [F]iles";
         };
       };
+      "<leader>se" = {
+        mode = "n";
+        action = "symbols";
+        options = {
+          desc = "[S]earch [E]moji";
+        };
+      };
       "<leader>ss" = {
         mode = "n";
         action = "builtin";
