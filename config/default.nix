@@ -20,5 +20,6 @@
     ./plugins/vimtex.nix
     ./plugins/java.nix
     ./plugins/extra.nix
+    ./plugins/dap.nix
   ];
 }
