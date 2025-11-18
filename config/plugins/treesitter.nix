@@ -52,15 +52,6 @@ in
     '';
   };
 
-  extraConfigLua = ''
-    vim.filetype.add({
-      extension = {
-        nyaa = "nyaaml",
-        nyaaml = "nyaaml",
-      },
-    })
-  '';
-
   extraPlugins = [
     treesitter-nyaaml-grammar
   ];

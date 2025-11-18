@@ -63,6 +63,9 @@
         wgsl_analyzer = {
           enable = true;
         };
+        pest_ls = {
+          enable = true;
+        };
         texlab = {
           enable = true;
         };

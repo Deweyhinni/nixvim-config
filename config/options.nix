@@ -32,5 +32,20 @@
     }
   ];
 
+  extraConfigLua = ''
+    vim.filetype.add({
+      extension = {
+        nyaa = "nyaaml",
+        nyaaml = "nyaaml",
+      },
+    })
+
+    vim.filetype.add({
+      extension = {
+        pest = "pest",
+      },
+    })
+  '';
+
   colorschemes.catppuccin.enable = true;
 }
