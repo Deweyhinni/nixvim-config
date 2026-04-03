@@ -38,21 +38,9 @@ in
     grammarPackages = pkgs.vimPlugins.nvim-treesitter.passthru.allGrammars ++ [
       treesitter-nyaaml-grammar
     ];
-    luaConfig.post=''
-      do
-        local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
-        parser_config.nyaaml = {
-          install_info = {
-            url = "${treesitter-nyaaml-grammar}",
-            files = {"src/parser.c"},
-          },
-          filetype = "nyaaml",
-        }
-      end
-    '';
   };
 
-  extraPlugins = [
-    treesitter-nyaaml-grammar
-  ];
+  extraConfigLua = ''
+    vim.treesitter.language.register("nyaaml", "nyaaml")
+  '';
 }
